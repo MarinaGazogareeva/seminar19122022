@@ -36,7 +36,6 @@ for(int i = 0; i < s.Length; i++)
     c = s[i].ToString();
     s2 = s;
     s2 = s2.Remove(i, 1);
-    //Console.WriteLine(s2);
     rec(s2, c);
 }
 
